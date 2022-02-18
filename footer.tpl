@@ -241,14 +241,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		
 	});
 });
-<!-- yandex map -->
-   setTimeout(function() {
-    var script2 = document.createElement('script');
-    script2.async = 'async';
-    script2.src = "https://api-maps.yandex.ru/2.1/?lang=ru_RU&onload=Start_map";
-    document.getElementsByTagName('head')[0].appendChild(script2);
-  }, 3500);
-    </script>
+
 
 <?php } ?>
 <script defer src="catalog/view/javascript/theme_lightshop/jquery-ui.min.js<?php echo '?v'.$version; ?>"></script>
