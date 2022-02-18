@@ -25,53 +25,7 @@
 		<?php echo $column_left ? '<div class="col-sm-3">' . $column_left . '</div>' : ''?>
 		<div class="col-sm-<?php echo $col; ?>">	
 		<div class="contacts__info">
-			<div class="contacts__info-inner">
-			<div class="title-h3">Контактная информация</div>
-			<?php if ($phone_1 || $phone_2) { ?>
-				<div class="contacts__info-item">
-					<span class="contacts__info-icon">
-						<svg class="icon-phone">
-							<use xlink:href="#phone"></use>
-						</svg>
-					</span>
-					<div class="contacts__numbers">
-					<?php if ($phone_1) { ?>
-						<a <?php echo $schema ? 'itemprop="telephone" ' : ''; echo 'href="tel:' . preg_replace('/[^0-9]/', '', $phone_1) . '" rel="nofollow"';?> class="contacts__numbers-item">
-							<?php echo $phone_1; ?>
-						</a>
-					<?php } ?>
-					<?php if ($phone_2) { ?>
-						<a <?php echo $schema ? 'itemprop="telephone" ' : ''; echo 'href="tel:' . preg_replace('/[^0-9]/', '', $phone_2) . '" rel="nofollow"';?> class="contacts__numbers-item">
-							<?php echo $phone_2; ?>
-						</a>
-					<?php } ?>
-					</div>
-				</div>
-				<?php } ?>
-				
-				
-				<?php if ($shop_email) { ?>
-				<div class="contacts__info-item">
-					<span class="contacts__info-icon">
-						<svg class="icon-mail">
-							<use xlink:href="#mail"></use>
-						</svg>
-					</span>
-					<div class="contacts__info-text">
-						<span class="contacts__info-title">
-							<?php echo $text_lightshop_support; ?>
-						</span>
-						<a href="mailto:<?php echo $shop_email; ?>" class="contacts__mail">
-							<span <?php echo $schema ? 'itemprop="email"' : ''?>><?php echo $shop_email; ?></span>
-						</a>
-					</div>
-				</div>
-				<?php } ?>
-				
-				<div class="contacts__info-item">
-				<a href="#contact-form" class="btn btn--transparent js-fancy-popup">Задать вопрос</a>
-				</div>
-			</div>
+			
 			
 			<div class="contacts__info-rekvizit">
 			<div class="title-h3">РЕКВИЗИТЫ</div>
