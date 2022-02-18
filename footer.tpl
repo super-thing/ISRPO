@@ -19,14 +19,7 @@
 				<div class="subscribe subscribe--dark">
 					<?php  if($subscribe_status) { ?>
 					<noindex>
-					<div class="subscribe__heading">
-						<span class="subscribe__title">
-						Отправьте заявку на индивидуальный заказ
-						</span>
-						<span class="subscribe__subtitle">
-						 и получите скидку от 20%
-						</span>
-					</div>
+					
 					<div class="subscribe__form">
 						
 							<span class="fake-input">
