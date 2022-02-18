@@ -29,14 +29,7 @@
 					</div>
 					<div class="subscribe__form">
 						
-							<span class="fake-input">
-								<input type="email"  name="emailsubscr" value="" placeholder="<?php echo $text_footer_subscribe_email;  ?>">
-								<button type="button" class="subscribe__btn" title="<?php echo $text_lightshop_subscribe_btn;  ?>">
-								<svg class="icon-plane">
-									<use xlink:href="#direction"></use>
-								</svg>
-								</button>
-							</span>
+							
 						
 					</div>
 					</noindex>
